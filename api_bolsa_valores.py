@@ -1,6 +1,15 @@
 
 """
-Comando para download da pasta .zip: 'kaggle datasets download -d paultimothymooney/stock-market-data'
+Comando para download da pasta .zip: 'kaggle datasets download -d paultimothymooney/stock-market-data
+Basta voce colocar o destino da sua pasta stock-market-data.zip e usar a função de extração.
+Diferenças de csv e json:
+- Json é mais pesado.
+- Json é mais legivel.
+- É mais facil de tratar dados com Json.
+- Json suporta tipo de dados mais complexos.
+- Json é mais utilizado para pegar dados em API.
+- CSV é mais utilizado para importar/exportar dados de planilhas ou banco de dados.
+- Diferente do CSV o Json tem suporte para metadados.
 """
 from zipfile import ZipFile
 import os
